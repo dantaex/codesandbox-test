@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.todo {
+  text-align: left;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: border 0.1s linear;
+}
+
+.todo:hover {
+  border: 1px solid hsl(171, 100%, 41%);
+}
+
+.list-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px 15px 0px;
+}
